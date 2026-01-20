@@ -1,0 +1,47 @@
+#Kaun Banega Crorepati,
+https://www.online-python.com/I17Vhx5smc
+# kaun banega coreropati 
+b = ("what is the captial of Bihar ?").lower()
+print(b)
+e = ("patna", "chennai", "mumbai","kolkata")
+print(e)
+n = ( 50000000)
+l = ( 700000)
+a = input("enter your answer:")
+if a == "patna":
+    print("correct")
+else:
+    print("wrong answer you are out of game")
+if a == "patna":
+    print("now you have ruppess of worth:",n)
+else:
+    print("no money")
+    exit()
+    g = "what is the full form of iit?"
+    print(g)
+h = ("indian instiute of technology","indian science institutes","indian insticnt instiutes", "none")
+print(h)
+z = input("what is the full form of iit:").lower()
+print(z)
+
+if z == "indian institues of technology":
+    print("congrats mr.","you have gotten now: ",l)
+else:
+    print("no you^re out of game")
+    print("now you^re total worthof rs are:", n - 500 )
+    exit()
+
+
+    if a == "patna" and z == "indian institues of technology" :
+        print("congrats , you now have Rs worth of :", n + l)
+        print("now you^re total worthn after the tyaxes are:", n + l - 500)
+    if a == "patna" and z != "indian institues of technology":
+        print("now you^re total worthn after the tyaxes are:", l - 500)
+    print("now you^re total worthn after the tyaxes are:", n - 500)
+    if z == "indian institues of technolog" and a != "patna":
+        print("congrats, now you have rs worth of :",l)
+    print("now you^re total worthn after the tyaxes are:", l - 500)
+
+    
+
+    
