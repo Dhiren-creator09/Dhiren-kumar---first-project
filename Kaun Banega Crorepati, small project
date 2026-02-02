@@ -1,43 +1,43 @@
-# Question 1
-b = "what is the capital of bihar?"
+#Kaun Banega Crorepati,
+#https://www.online-python.com/I17Vhx5smc
+# kaun banega coreropati 
+b = ("what is the captial of Bihar ?").lower()
 print(b)
-
-options = ("patna", "chennai", "mumbai", "kolkata")
-print(options)
-
-n = 50000000
-l = 700000
-
-a = input("Enter your answer: ").lower()
-
-if a != "patna":
-    print("Wrong answer, you are out of the game.")
-    print("No money won.")
+e = ("patna", "chennai", "mumbai","kolkata")
+print(e)
+n = ( 50000000)
+l = ( 700000)
+a = input("enter your answer:")
+if a == "patna":
+    print("correct")
+else:
+    print("wrong answer you are out of game")
+if a == "patna":
+    print("now you have ruppess of worth:",n)
+else:
+    print("no money")
     exit()
-
-print("Correct!")
-print("You have won Rs:", n)
-
-# Question 2
-g = "What is the full form of IIT?"
-print(g)
-
-h = (
-    "indian institute of technology",
-    "indian science institute",
-    "indian institute of information",
-    "none"
-)
+    g = "what is the full form of iit?"
+    print(g)
+h = ("indian instiute of technology","indian science institutes","indian insticnt instiutes", "none")
 print(h)
+z = input("what is the full form of iit:").lower()
+print(z)
 
-z = input("Enter your answer: ").lower()
-
-if z != "indian institute of technology":
-    print("Wrong answer, you are out of the game.")
-    print("Your total amount after tax:", n - 500)
+if z == "indian institues of technology":
+    print("congrats mr.","you have gotten now: ",l)
+else:
+    print("no you^re out of game")
+    print("now you^re total worthof rs are:", n - 500 )
     exit()
 
-print("Correct!")
-total = n + l
-print("Congratulations! You won Rs:", total)
-print("Your total amount after tax:", total - 500)
+
+    if a == "patna" and z == "indian institues of technology" :
+        print("congrats , you now have Rs worth of :", n + l)
+        print("now you^re total worthn after the tyaxes are:", n + l - 500)
+    if a == "patna" and z != "indian institues of technology":
+        print("now you^re total worthn after the tyaxes are:", l - 500)
+    print("now you^re total worthn after the tyaxes are:", n - 500)
+    if z == "indian institues of technolog" and a != "patna":
+        print("congrats, now you have rs worth of :",l)
+    print("now you^re total worthn after the tyaxes are:", l - 500)
